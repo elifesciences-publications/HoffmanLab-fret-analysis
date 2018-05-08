@@ -9,7 +9,9 @@ FRETchannel = 'TVFRET';
 
 % Analysis Details
 FRETeff = 'y';
-Force = 'n';
+Force = 'y';
+force_lut = 'original_vints_FRET_force.txt';
+ext_lut = 'original_vints_FRET_ex.txt';
 
 % Object Segmentation
 segmentation = 'y';
@@ -38,6 +40,3 @@ sizemax = 5000;
 ThreshRange = [0,10000];
 WidthRange = [0,100];
 MergeRange = [0,100];
-
-folder = 'E:\61SearleRepeatsWithArnold\2018_02_12_VinTS_VinTSI997A_FRET_coloc\testing_FRETeff';
-final_blob_params = [25 400 40];
